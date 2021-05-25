@@ -1,0 +1,38 @@
+{
+    "name": "lj-charts-code-snippets",
+    "displayName": "lj-charts-code-snippets",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "liujie",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/liujie2019/lj-charts-code-snippets.git"
+    },
+    "homepage": "https://github.com/liujie2019/lj-charts-code-snippets/blob/main/README.md"
+}
